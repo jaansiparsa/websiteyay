@@ -1,0 +1,76 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+ 
+body {
+  font-family: 'Apple Chancery', cursive;
+  font-weight: 100;
+}
+
+h1 {
+  color: plum
+  /* Try putting some styling for h1 here */
+}
+ 
+.container {
+  padding: 10px;
+}
+ 
+.nav { 
+  background: beige;
+  width: 100%;
+}
+ 
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+ 
+.nav ul li {
+  color: rgb(206, 65, 225);
+  display: inline-block; 
+  list-style: none;
+  padding: 10px 10px;
+}
+ 
+.nav ul li:hover {
+  background: plum;
+  cursor: pointer; 
+  transition: background .5s;  
+}
+
+.footer { 
+  background: beige;
+  height: 80px; 
+  padding-bottom: 20px;
+}
+
+.footer p { 
+  color: plum;
+  font-size: 14px;  
+  height: 80px; 
+  line-height: 80px;
+  margin: 0;  
+  text-align: center
+}
+
+.jumbotron {
+  background: url(../images/pastelbluebook.jpg) center center;
+  background-size: cover;
+  height: 600px; 
+}
+ 
+.jumbotron .container {
+  position: relative;
+  top: 220px;
+}
+body {
+ font-family: 'Work Sans', sans-serif;
+ font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 900;
+}
