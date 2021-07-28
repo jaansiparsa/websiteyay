@@ -4,7 +4,7 @@ html, body {
 }
  
 body {
- font-family: 'Work Sans', sans-serif;
+ font-family: 'Alegreya', serif;
  font-weight: 300;
 }
 
@@ -61,27 +61,69 @@ h1 {
 }
 
 
-
-
-h1, h2, h3, h4, h5, h6 {
- font-family: 'Montserrat', sans-serif;
- font-weight: 900;
-}
-
 .jumbotron {
   background-size: cover;
   height: 100vh;
 }
  
 .jumbotron.bookpic {
-  background-image: url('images/bookpic.jpeg');
+  background-image: url('images/yellowflower.jpg');
 }
 .jumbotron.contact {
-  background-image: url('images/contactbackground.jpg');
+  background-image: url('images/blueflower.jpg');
 }
 .jumbotron.pages {
-  background-image: url('images/pages.jpg');
+  background-image: url('images/purpleflower.jpg');
 }
 .jumbotron.pastelbluebook {
-  background-image: url('images/pastelbluebook.jpg');
+  background-image: url('images/flowerbackground.jpg');
+}
+
+
+
+.jumbotron.pastelbluebook .indextitle {
+  padding: 10% 5%;
+  font-family: 'Amiri', serif;
+  
+}
+
+.jumbotron .indexsubtitle {
+  padding: 10% 5% 1%;
+  margin: 0px;
+  font-family: 'Optima', sans-serif;
+}
+
+#abouttitle {
+  padding: 10% 5%;
+  color: #52803d
+}
+
+#aboutsubtitle {
+
+}
+
+#indexnav {
+  color: #52803d
+}
+
+#aboutnav {
+  color: #ddbbfc
+}
+
+#blogtitle {
+  padding: 10% 5%;
+  color:white
+}
+
+#blognav {
+  color: #52803d
+}
+
+#contactnav {
+  color:#73bf74
+}
+
+#contacttitle {
+  padding: 10% 5%;
+  color: #6f99d9
 }
